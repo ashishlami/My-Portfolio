@@ -419,12 +419,18 @@ body {
 #timeline {
   display: flex;
   background-color: #031625;
-  margin-top: 90px;
 }
 #timeline:hover .t1-item {
   width: 23.3333%;
 }
 
+.timelineText {
+  padding: 20px 10px;
+}
+.contentText {
+  text-align: center;
+  font-size: 30px;
+}
 .t1-item {
   transform: translate3d(0,0,0);
   position: relative;
@@ -519,8 +525,8 @@ body {
 .t1-year p {
   font-family: tahoma;
   font-size: 1.628rem;
-  line-height: 0;
-
+  line-height: 2;
+  margin-bottom: 0;
 }
 
 

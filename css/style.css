@@ -99,12 +99,17 @@ body {
 }
 .chart .percent:after{
   content: '%';
-
 }
+
+.statsSection {
+  padding: 20px 10px;
+}
+
 .squareItem {
   margin-top: 40px;
   position: relative;
 }
+
 .squareInnerContainer {
   position: relative;
   padding: 50px 14px 35px;
@@ -541,4 +546,24 @@ body {
   background-size: cover;
   background-position: center center;
   transition: filter 0.5s ease;
+}
+
+.owl-carousel .owl-nav.disabled {
+  display: block;
+}
+
+.owl-nav .owl-prev span {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  color: #343a40;
+  font-size: 5vw;
+}
+
+.owl-nav .owl-next span {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  color: #343a40;
+  font-size: 5vw;
 }

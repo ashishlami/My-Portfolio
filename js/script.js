@@ -33,8 +33,13 @@ $(document).ready(function() {
     startDelay: 1000,
     showCursor: false,
   });
+
   $('.owl-carousel').owlCarousel({
     loop:true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    dots: true,
+    nav: true,
     items:4,
     responsive:{
         0:{

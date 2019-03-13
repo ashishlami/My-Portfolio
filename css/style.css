@@ -430,6 +430,7 @@ body {
 .contentText {
   text-align: center;
   font-size: 30px;
+  font-weight: 500;
 }
 .t1-item {
   transform: translate3d(0,0,0);
@@ -499,7 +500,7 @@ body {
   z-index:1;
   text-align: center;
   margin: 0.1618em;
-  top: 55%;
+  top: 45%;
   opacity: 0;
 }
 
@@ -513,7 +514,7 @@ body {
 
 .t1-year {
   position: absolute;
-  top:50%;
+  top:40%;
   left:50%;
   transform: translateY(-50%) translateY(-50%);
   z-index: 1;
@@ -540,5 +541,4 @@ body {
   background-size: cover;
   background-position: center center;
   transition: filter 0.5s ease;
-  filter: grayscale(100%);
 }

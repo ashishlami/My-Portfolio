@@ -567,3 +567,9 @@ body {
   color: #343a40;
   font-size: 5vw;
 }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}

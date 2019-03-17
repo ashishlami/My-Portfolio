@@ -144,4 +144,9 @@ $(document).ready(function() {
       }
     }
 
+    $(".download").click(function() {
+    // // hope the server sets Content-Disposition: attachment!
+    window.location = 'prataplamichhane.pdf';
+});
+
 });

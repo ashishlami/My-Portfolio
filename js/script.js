@@ -143,10 +143,4 @@ $(document).ready(function() {
         body.removeClass("fixedNav");
       }
     }
-
-    $(".download").click(function() {
-    // // hope the server sets Content-Disposition: attachment!
-    window.location = 'prataplamichhane.pdf';
-});
-
 });

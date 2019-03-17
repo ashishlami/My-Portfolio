@@ -1,20 +1,25 @@
 
 $(window).on("load", function (){
-  $(".loader .inner").fadeOut(500, function(){
-    $(".loader").fadeOut(750);
+  $(".loader .inner").fadeOut(750, function(){
+    $(".loader").fadeOut(500);
   });
 
   $(".items").isotope({
     filter: '*',
     animationOptions:{
-      duration:1500,
-      easing:'liner',
-      queue: false
+    duration:1500,
+    easing:'liner',
+    queue: false
     }
   });
 });
 
+
 $(document).ready(function() {
+
+  setTimeout( function(){
+    $('#myModal').modal('show');
+  },1700);
 
   $('#slides').superslides({
     animation: 'fade',

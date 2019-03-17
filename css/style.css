@@ -567,3 +567,16 @@ body {
   color: #343a40;
   font-size: 5vw;
 }
+
+.modal-content {
+  background-color: #343a40;
+  color: #343a40;
+}
+
+.modal-header {
+  color: #fff;
+  background-color: #501919;
+}
+.modal-body {
+  color: #fff;
+}

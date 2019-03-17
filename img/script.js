@@ -22,6 +22,7 @@ $(document).ready(function() {
     play: 3000,
   });
 
+
   $("#formButton").click(function(){
           $("#highlights").toggle();
       });

@@ -424,9 +424,23 @@ body {
 #timeline {
   display: flex;
   background-color: #031625;
+
+  -webkit-transition: all 0.2s linear, 0.5s;
+  -moz-transition: all 0.2s linear, 0.5s;
+  -o-transition: all 0.2s linear, 0.5s;
+  -ms-transition: all 0.2s linear, 0.5s;
+  -transition: all 0.2s linear, 0.5s;
+
 }
 #timeline:hover .t1-item {
   width: 23.3333%;
+
+  -webkit-transition: all 0.2s linear, 0.5s;
+  -moz-transition: all 0.2s linear, 0.5s;
+  -o-transition: all 0.2s linear, 0.5s;
+  -ms-transition: all 0.2s linear, 0.5s;
+  -transition: all 0.2s linear, 0.5s;
+
 }
 
 .timelineText {

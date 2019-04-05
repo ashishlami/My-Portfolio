@@ -585,6 +585,7 @@ body {
   background-color: #c0c1cc;
   padding: 2px 2px 3px;
   cursor: pointer;
+  width:80px;
 }
 #formButton:hover {
   background-color: #8b8c98;

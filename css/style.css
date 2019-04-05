@@ -580,3 +580,13 @@ body {
 .modal-body {
   color: #fff;
 }
+
+#formButton {
+  background-color: #c0c1cc;
+  padding: 2px 2px 3px;
+  cursor: pointer;
+}
+#formButton:hover {
+  background-color: #8b8c98;
+
+}

@@ -50,6 +50,16 @@ body {
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   font-weight: 100;
   letter-spacing: 7px;
+  margin-top: 20px;
+}
+.titleMessage .heading {
+  background: #000000;
+  width:320px;
+  height:460px;
+  left:40%;
+  align-items: stretch;
+  position: absolute;
+  box-sizing: border-box;
 }
 
 .titleMessage .heading .name {
@@ -57,6 +67,26 @@ body {
 }
 .titleMessage .heading .sub {
   letter-spacing: 4px;
+}
+.LoginBox {
+margin-top: 20px;
+}
+
+.titleMessage input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.titleMessage input[type="text"] {
+  border:none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+}
+
+.Entitlement {
+margin-top: -20px;
 }
 
 .section {
@@ -391,13 +421,10 @@ body {
   text-align: center;
   margin: 0 auto;
   float: none;
-  font-size: 40px;
-  padding: 60px;
+  font-size: 10px;
+  margin-top: -160px;
+  padding: 70px;
 
-}
-.socialIcon a:hover {
-  color:#69b4ce;
-  opacity: 0.6;
 }
 
 .socialLink .download {
@@ -588,11 +615,11 @@ body {
 }
 
 .modal-header {
-  color: #fff;
-  background-color: #501919;
+  color:#fff;
+  background-color: #0DB5F5;
 }
 .modal-body {
-  color: #fff;
+  color: #0DB5F5;
 }
 
 #formButton {
